@@ -47,3 +47,21 @@ nav ul li a {
     
     
 }
+/****************BILAL*******************************************************************************************************************************************************************/
+.sec1 .container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sec2 .container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #BB9457;
+    color: white;
+}
+/*******************************************************************************************************************************************************/
