@@ -91,11 +91,33 @@ nav ul li a {
     width: auto;
     object-fit: cover ;
 }
+
+
+
 /****************BILAL*******************************************************************************************************************************************************************/
 .sec1 .container{
     height: 100vh;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+   
+}
+
+.paragraph{
+    width: 70%;
+    text-align: center;
+   
+}
+.sec1 .primarytitle{
+    font-family: 'Times New Roman', Times, serif;
+font-size: 30px;
+margin: auto;
+}
+
+.sec2{
+    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -105,7 +127,15 @@ nav ul li a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #BB9457;
-    color: white;
+   gap: 20px;
+}
+.secondarytitle{
+    font-family: 'Times New Roman', Times, serif;
+    margin: auto;
+
+}
+.imgb{
+
+    height: 80%;
 }
 /*******************************************************************************************************************************************************/
