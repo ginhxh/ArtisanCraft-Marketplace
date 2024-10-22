@@ -68,11 +68,17 @@ nav ul li a {
     text-align: center;
     font-size: 18px;
 }
-
-.main2{
-    height: 100vh;
+.mainv2{
+    height: 140vh;
     width: 80%;
-    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:  auto;
+}
+.main2{
+
+
     display: grid;
     grid-template-columns: repeat(2,1fr);
     margin-bottom: 30px;
@@ -174,11 +180,11 @@ footer p {
 .categories{
     height: 60vh;
     width: 95%;
-    margin: auto;
+    margin: 70px auto;
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: 1fr;
-    gap: 30px;
+    gap: 40px;
     }
 
 .cat1{
@@ -200,6 +206,16 @@ footer p {
     grid-column: 4/5;
     grid-row: 1;
     background-color: grey;
+}
+.cart h2{
+    text-align: center;
+    margin: 30px;
+}
+
+.catimg{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
   
 /****************BILAL*******************************************************************************************************************************************************************/
