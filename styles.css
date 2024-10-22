@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     padding: 0;
     margin: 0;
+}
+body{
+    font-family: "Montserrat", sans-serif;
 }
 
 header{
@@ -216,11 +220,11 @@ footer p {
 .paragraph{
     width: 70%;
     text-align: center;
+    margin: 30px auto;
    
 }
 .sec1 .primarytitle{
-    font-family: 'Times New Roman', Times, serif;
-font-size: 30px;
+font-size: 20px;
 margin: auto;
 }
 
@@ -230,16 +234,16 @@ margin: auto;
     align-items: center;
 }
 .sec2 .container{
-    height: 100vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-   gap: 20px;
+   gap: 30px;
 }
 .secondarytitle{
-    font-family: 'Times New Roman', Times, serif;
     margin: auto;
+    font-size: 17px;
 
 }
 .imgb{
