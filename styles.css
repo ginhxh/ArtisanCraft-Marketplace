@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
     padding: 0;
     margin: 0;
@@ -220,6 +222,116 @@ footer p {
     height: 100%;
     width: 100%;
     object-fit: cover;
+}
+
+
+.product_details{
+    height: 90vh;
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: 1fr;
+
+}
+
+.image_section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-column: 1/4;
+    grid-row: 1;
+
+}
+.product_image{
+    width: 70%;
+    height: 70%;
+    margin: auto;
+
+}
+.product_image img{
+    height: 100%;
+    width: 90%;
+    object-fit: cover;
+}
+.details_section{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: first start;
+    justify-content: space-between;
+    grid-column: 4/6;
+    grid-row: 1;
+    gap: 30px;
+
+}
+.details_section img{
+    height: 20px;
+    width: 120px ;
+    object-fit: cover;
+}
+.product_button{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.product_btn{
+    display: flex;
+    justify-content: center;
+    display: inline-block;
+    outline: 0;
+    text-align: center;
+    cursor: pointer;
+    background: black;
+    border-color: #fff;
+    color: white;
+    height: 2.5rem;
+    padding: 0 120px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    transition: all .3s ease;
+    text-align: center;
+    min-width: 110px;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 13px;
+    :hover {
+        box-shadow: 0 1px 4px 0 rgb(0 0 0 / 10%);
+    }  
+}
+.counter-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 2px 4px;
+    border: black 2px solid;
+
+}
+
+.counter-btn {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.pr_title{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+.pr_description{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+   
 }
   
 /****************BILAL*******************************************************************************************************************************************************************/
