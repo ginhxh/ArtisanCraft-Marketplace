@@ -7,7 +7,9 @@
 }
 body{
     font-family: "Montserrat", sans-serif;
+    overflow-x: hidden;
 }
+
 
 header{
     position: relative;
@@ -53,7 +55,7 @@ nav ul li a {
     color: black;
 } 
 .main_page{
-   height: 80vh;
+   height: 65vh;
 }
 
 .main_page .img{
@@ -62,13 +64,12 @@ nav ul li a {
 
 
 .home_content{
-    height: 30vh;
+    height: 60vh;
     width: 80%;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: auto;
-    
 }
 .home_content p{
     text-align: center;
@@ -183,6 +184,10 @@ footer p {
     }  
     }
 
+    .cat_head{
+        text-align: center;
+     }
+
 .categories{
     height: 60vh;
     width: 95%;
@@ -196,26 +201,24 @@ footer p {
 .cat1{
     grid-column: 1/2;
     grid-row: 1;
-    background-color: grey;
 }
 .cat2{
     grid-column: 2/3;
     grid-row: 1;
-    background-color: grey;
 }
 .cat3{
     grid-column: 3/4;
     grid-row: 1;
-    background-color: grey;
 }
 .cat4{
     grid-column: 4/5;
     grid-row: 1;
-    background-color: grey;
 }
 .cart h2{
     text-align: center;
-    margin: 30px;
+    margin: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
 }
 
 .catimg{
@@ -224,6 +227,176 @@ footer p {
     object-fit: cover;
 }
 
+
+
+@media (max-width: 930px) {
+    .main_page .img{
+        width: 100%;
+
+    }
+    .main_page{
+        height: 50vh;
+        overflow-x: hidden;
+     }
+     .cat_head{
+        text-align: center;
+        margin-top: 30px;
+     }
+
+     .categories{
+        height: 130vh;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+        gap: 50px;
+
+        }
+        .cat1{
+            grid-column: 1/2;
+            grid-row: 1/2;
+        }
+        .cat2{
+            grid-column: 2/3;
+            grid-row: 1/2;
+        }
+        .cat3{
+            grid-column: 1/2;
+            grid-row: 2/3;
+        }
+        .cat4{
+            grid-column: 2/3;
+            grid-row: 2/3;
+        }
+        .cart h2{
+            text-align: center;
+            margin: 10px;
+        }
+        
+        .catimg{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+        .mainv2{
+            height: 150vh;
+            width: 80%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin:  auto;
+  
+        }
+        .main2{
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(2,1fr);
+            
+        }
+        .left_section{
+            grid-column:1 ;
+            grid-row: 2/3;
+            height: 100%;
+            width: 70%;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 50px;
+        }
+        .right_section{
+            grid-column:1 ;
+            grid-row: 1;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+        .right_section img{
+            height: 60vh;
+            width: 60%;
+            width: auto;
+            object-fit: cover ;
+        }
+        .home_content{
+            height: 30vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .formbtn{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+          }
+}
+
+@media (max-width: 480px) {
+    .categories{
+        width: 80%;
+        margin: auto;
+        height: 200vh;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4,1fr);
+        gap: 30px;
+
+        }
+        .cat1, .cat2, .cat3, .cat4, .cat5 , .cat6{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .cat1{
+            grid-column: 1/2;
+            grid-row: 1/2;
+        }
+        .cat2{
+            grid-column: 1/2;
+            grid-row: 2/3;
+        }
+        .cat3{
+            grid-column: 1/2;
+            grid-row: 3/4;
+        }
+        .cat4{
+            grid-column: 1/2;
+            grid-row: 4/5;
+        }
+        .cart h2{
+            text-align: center;
+            margin: 10px;
+        }
+        .main_page{
+            height: 40vh;
+            overflow-x: hidden;
+         }
+        .home_content{
+            height: 60vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .mainv2{
+            padding-top: 350px;
+            margin-top: 120px;
+            height: 200vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .main2{
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(2,1fr);
+        }
+        .cat_head{
+            font-size: 25px;
+            margin: 20px;
+        }
+    
+}
 
 .product_details{
     height: 90vh;
