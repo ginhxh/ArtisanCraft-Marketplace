@@ -9,23 +9,32 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
-<body>  <header>
-    <img src="../assets/logo.svg" class="logo" alt="logo">
-    <nav>
-        <ul>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="products.html">Categories</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="">Contact us</a></li>
-        </ul>
-    </nav>
-    <div class="icons">
-        <img src="../assets/user.svg" alt="">
-        <img src="../assets/search1.svg" alt="">
-        <img src="../assets/cart.svg" alt="">
-    </div>
-</header>
-
+<body>  
+    <header>
+        <img src="../assets/logo.svg" class="logo" alt="logo">
+        <nav>
+            <ul class="sidebar">
+                <svg onclick="hidesidebar()" xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="undefined"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="products.html">Categories</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+            </ul>
+            <ul class="headerb">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="products.html">Categories</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+            </ul>
+        </nav>
+        <div class="icons">
+            <img src="../assets/user.svg" alt="">
+            <img src="../assets/search1.svg" alt="">
+            <img src="../assets/cart.svg" alt="">
+        </div>
+        <div class="menub"><svg onclick="showsidebar()" xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="undefined"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></div>
+    </header>
+    
     <div class="op">
 
         <div class="product-why">
@@ -52,109 +61,28 @@
     </div>
 
     <h2 class="h2-sel">BEST SELLING DESIGNS:</h2>
-<div class="all-best-product">
-    <div class="best-selling-product">
-<img src="../assets/img/il_794xN.1004355588_dali.webp" alt="">
-<p class="product-name">product name here</p>
-<hr>
-<div class="product-pris">
-<p class="product-prix">45.99$</p>
 
-</div>
-<a href="product_details.html"> <button class="btn-add-cart">Check out</button>
-</a>
+    <div class="filter">
+        <div>
+            <label for="category-filter">Category:</label>
+        <select id="category-filter">
+            <option value="all">All</option>
+        </select>
+        </div>
 
-
+  <div>
+        <label for="price-filter">Sort by Price:</label>
+        <select id="price-filter">
+            <option value="none">Select</option>
+            <option value="asc">Low to High</option>
+            <option value="desc">High to Low</option>
+        </select>
     </div>
-    <div class="best-selling-product">
-        <img src="../assets/img/il_794xN.1004355588_dali.webp" alt="">
-        <p class="product-name">product name here</p>
-        <hr>
-        <div class="product-pris">
-        <p class="product-prix">45.99$</p>
-        
-        </div>
-        <a href="product_details.html"> <button class="btn-add-cart">Check out</button>
-        </a>        
-        
-        
-            </div>    <div class="best-selling-product">
-                <img src="../assets/img/il_794xN.1004355588_dali.webp" alt="">
-                <p class="product-name">product name here</p>
-                <hr>
-                <div class="product-pris">
-                <p class="product-prix">45.99$</p>
-                
-                </div>
-                <a href="product_details.html"> <button class="btn-add-cart">Check out</button>
-                </a>                
-                
-                
-                    </div>
-    <div class="best-selling-product">
-        <img src="../assets/img/il_794xN.1004355588_dali.webp" alt="">
-        <p class="product-name">product name here</p>
-        <hr>
-        <div class="product-pris">
-        <p class="product-prix">45.99$</p>
-        
-        </div>
-        <a href="product_details.html"> <button class="btn-add-cart">Check out</button>
-        </a>        
-        
-        
-            </div>
-            <div class="best-selling-product">
-                <img src="../assets/img/il_794xN.1004355588_dali.webp" alt="">
-                <p class="product-name">product name here</p>
-                <hr>
-                <div class="product-pris">
-                <p class="product-prix">45.99$</p>
-                
-                </div>
-                <a href="product_details.html"> <button class="btn-add-cart">Check out</button>
-                </a>                
-                
-                
-                    </div> <div class="best-selling-product">
-                        <img src="../assets/img/il_794xN.1004355588_dali.webp" alt="">
-                        <p class="product-name">product name here</p>
-                        <hr>
-                        <div class="product-pris">
-                        <p class="product-prix">45.99$</p>
-                        
-                        </div>
-                        <a href="product_details.html"> <button class="btn-add-cart">Check out</button>
-                        </a>                        
-                        
-                        
-                            </div> <div class="best-selling-product">
-                                <img src="../assets/img/il_794xN.1004355588_dali.webp" alt="">
-                                <p class="product-name">product name here</p>
-                                <hr>
-                                <div class="product-pris">
-                                <p class="product-prix">45.99$</p>
-                                
-                                </div>
-                                <a href="product_details.html"> <button class="btn-add-cart">Check out</button>
-                                </a>
-                                
-                                
-                                    </div> <div class="best-selling-product">
-                                        <img src="../assets/img/il_794xN.1004355588_dali.webp" alt="">
-                                        <p class="product-name">product name here</p>
+      
+<div class="all-best-product">
+     
+    </div>
 
-                                        <hr>
-                                        <div class="product-pris">
-                                        <p class="product-prix">45.99$</p>                                        
-                                        </div>
-                                        <a href="product_details.html"> <button class="btn-add-cart">Check out</button>
-                                        </a>
-                                        
-                                        
-                                        
-                                    </div> 
-                                </div>
 
 
 
@@ -226,4 +154,6 @@
 
 
 </body>
+<script src="../script.js"></script>
+
 </html>

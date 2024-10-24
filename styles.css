@@ -346,12 +346,14 @@ footer p {
 }
 
 .paragraph{
+    display: block;
     width: 70%;
     text-align: center;
     margin: 30px auto;
    
 }
 .sec1 .primarytitle{
+    display: block;
 font-size: 20px;
 margin: auto;
 }
@@ -370,14 +372,72 @@ margin: auto;
    gap: 30px;
 }
 .secondarytitle{
+    display: block;
+
     margin: auto;
     font-size: 17px;
 
 }
 .imgb{
-
+    display: block;
+max-width: 100%;
     height: 80%;
 }
+.sidebar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 30%;
+    z-index: 999;
+    background-color: rgba(255, 255, 255, 0.301);
+    backdrop-filter: blur(10px);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.sidebar li{
+    width: 100%;
+    text-align: center;
+
+}
+.sidebar a:hover{
+   background-color: #a3a3a3;
+
+}
+
+.sidebar a{
+    width: 100%;
+}
+.menub{
+    display: none;
+}
+.filter{
+    height: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+@media   (max-width:728px) {
+     .headerb{
+        display: none;
+     }
+     .menub{
+        display: flex;
+    }
+}
+@media   (min-width:728px) {
+   
+   
+   .sidebar{
+    display: none;
+   }
+}
+
+
 /* ahmed ddddddddddddddddddddddddd *************************************/
 
 
@@ -396,6 +456,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 }
+
 .all-best-product{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -409,10 +470,16 @@ align-items: center;
     align-items: center;
     gap: 5px;
 }
-.best-selling-product img:hover{
-    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+.product-image {
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out; 
+}
 
-} 
+.product-image:hover {
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    transform: scale(1.05); 
+}
+
+
 .product-name{
     font-weight: 600;
     
