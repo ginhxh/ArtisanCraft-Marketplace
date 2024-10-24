@@ -58,7 +58,7 @@
           </div>
         </div>
     </section>
-    <!-- <footer>
+    <footer>
         <div class="footer_top">
             <h1>Join our tribe</h1>
             <p>Sign up to receive our emails and be the first to know about our new <br> products and exclusive offers. We promise we won't spam you!</p>
@@ -70,9 +70,26 @@
         <div class="footer_bottom">
             
         </div>
-    </footer> -->
+    </footer>
 
 </body>
 <script src="../script.js"></script>
+<script>
+    function decrement() {
+        const numberElement = document.getElementById("quantity");
+        let quantity = parseInt(numberElement.textContent); 
+        if (quantity > 0) { 
+            quantity--; 
+        }
+        numberElement.textContent = quantity; 
+    }
+
+    function increment() {
+        const numberElement = document.getElementById("quantity");
+        let quantity = parseInt(numberElement.textContent); 
+        quantity++; // Increment quantity
+        numberElement.textContent = quantity; // Update displayed quantity
+    }
+</script>
 
 </html>
