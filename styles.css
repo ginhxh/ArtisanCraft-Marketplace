@@ -642,7 +642,7 @@ width: 400px;}
     
 }
 .contact__right img{
-    height: 80%;
+    height: 100%;
 }
 .contact__left_top{
     display: flex;
@@ -713,6 +713,27 @@ form button{
     text-align: center;
   
 }
+.contact-map{
+margin-top: 100px;
+margin-bottom: 100px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    gap: 50px;
+}
+
+.map{
+    width: 800px;
+    height: 450px;
+   }
+
+   section.contact-map h1{
+    font-size: 50px;
+    font-weight: 600;
+    
+   }
+
+ 
 @media(max-width:900px){
     form textarea{
         width: 400px;
