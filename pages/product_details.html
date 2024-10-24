@@ -5,16 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles.css">
     <title>Document</title>
+    
 </head>
 <body>
     <header>
         <img src="../assets/logo.svg" class="logo" alt="logo">
         <nav>
-            <ul>
+            <ul class="sidebar">
+                <svg onclick="hidesidebar()" xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="undefined"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
                 <li><a href="../index.html">Home</a></li>
-                <li><a href="">Categories</a></li>
+                <li><a href="products.html">Categories</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact us</a></li>
+
+            </ul>
+            <ul class="headerb">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="products.html">Categories</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+
             </ul>
         </nav>
         <div class="icons">
@@ -22,11 +32,12 @@
             <img src="../assets/search1.svg" alt="">
             <img src="../assets/cart.svg" alt="">
         </div>
+        <div class="menub"><svg onclick="showsidebar()" xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="undefined"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></div>
     </header>
     <section class="product_details">
         <div class="image_section">
             <div class="product_image">
-                <img src="../assets/cat1.jpg" alt="">
+                <img src="../assets/img/il_794xN.1004355588_dali.webp" alt="">
             </div>
         </div>
         <div class="details_section">
@@ -47,7 +58,7 @@
           </div>
         </div>
     </section>
-    <footer>
+    <!-- <footer>
         <div class="footer_top">
             <h1>Join our tribe</h1>
             <p>Sign up to receive our emails and be the first to know about our new <br> products and exclusive offers. We promise we won't spam you!</p>
@@ -59,7 +70,9 @@
         <div class="footer_bottom">
             
         </div>
-    </footer>
+    </footer> -->
 
 </body>
+<script src="../script.js"></script>
+
 </html>
