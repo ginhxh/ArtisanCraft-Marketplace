@@ -7,22 +7,33 @@
     <title>Document</title>
 </head>
 <body>
-        <header>
-            <img src="assets/logo.svg" class="logo" alt="logo">
-            <nav>
-                <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="pages/products.html">Categories</a></li>
-                    <li><a href="pages/about.html">About</a></li>
-                    <li><a href="pages/contact.html">Contact us</a></li>
-                </ul>
-            </nav>
-            <div class="icons">
-                <img src="assets/user.svg" alt="">
-                <img src="assets/search1.svg" alt="">
-                <img src="assets/cart.svg" alt="">
-            </div>
-        </header>
+
+    <header>
+        <img src="assets/logo.svg" class="logo" alt="logo">
+        <nav>
+            <ul class="sidebar">
+                <svg onclick="hidesidebar()" xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="undefined"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="pages/products.html">Categories</a></li>
+                <li><a href="pages/about.html">About</a></li>
+                <li><a href="pages/contact.html">Contact us</a></li>
+            </ul>
+            <ul class="headerb">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="pages/products.html">Categories</a></li>
+                <li><a href="pages/about.html">About</a></li>
+                <li><a href="pages/contact.html">Contact us</a></li>
+            </ul>
+        </nav>
+        <div class="icons">
+            <img src="assets/user.svg" alt="">
+            <img src="assets/search1.svg" alt="">
+            <img src="assets/cart.svg" alt="">
+        </div>
+        <div class="menub"><svg onclick="showsidebar()" xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="undefined"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></div>
+    </header>
+
         <section class="main_page">
 
 
@@ -32,7 +43,7 @@
         <div class="home_content">
             <p>We celebrate our ancestors traditions through soulfully sourced artisanal homeware handpicked from villages and <br> cooperatives across our North-African homeland of Morocco. We share our treasured finds with you to connect <br> Moroccan artisans and their ancient crafts with modern market access so they can continue doing what they love, <br> and preserve the artistry of traditional handmade products for future generations.</p>
         </div>
-        <h1 style="text-align: center">OUR CATEGORIES</h1>
+        <h1 class="cat_head">OUR CATEGORIES</h1>
         <section class="categories">
             <div class="cart cat1">
                 <img class="catimg" src="assets/cat1.jpg" alt="">
@@ -55,7 +66,7 @@
             <section class="main2">
             <div class="left_section">
                 <h4>Handcrafted with love</h4>
-                <p>For every natural material there is a Moroccan tradition of working it by hand to enrich it with fine craftsmanship. Moroccan artisans pour their hearts and souls into their work, often in family-run workshops where craft knowledge and traditional motifs are passed from generation to generation. Moroccan craftsmanship brings out the best of the artisans’ skills together with the qualities of raw materials such as wool, leather, clay, and brass. This use of simple materials also means their products will last and age gracefully. </p>
+                <p style="text-align: center;">For every natural material there is a Moroccan tradition of working it by hand to enrich it with fine craftsmanship. Moroccan artisans pour their hearts and souls into their work, often in family-run workshops where craft knowledge and traditional motifs are passed from generation to generation. Moroccan craftsmanship brings out the best of the artisans’ skills together with the qualities of raw materials such as wool, leather, clay, and brass. This use of simple materials also means their products will last and age gracefully. </p>
             </div>
             <div class="right_section">
                 <img src="assets/men.svg" alt="">
@@ -66,7 +77,7 @@
         <footer>
             <div class="footer_top">
                 <h1>Join our tribe</h1>
-                <p>Sign up to receive our emails and be the first to know about our new <br> products and exclusive offers. We promise we won't spam you!</p>
+                <p style="text-align: center;">Sign up to receive our emails and be the first to know about our new <br> products and exclusive offers. We promise we won't spam you!</p>
                 <div class="formbtn">
                     <input type="text" placeholder="Enter your email" class="form__input"  />
                     <button class="btn"  ><a href="pages/product_details.html">SUBSCRIBE</a></button>
@@ -79,4 +90,6 @@
 
     
 </body>
+<script src="script.js"></script>
+
 </html>
