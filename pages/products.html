@@ -273,5 +273,14 @@
 
 </body>
 <script src="../script.js"></script>
+<script>
+    const products = document.querySelectorAll(".best-selling-product") ;
+    products.forEach((product)=>{
+        product.addEventListener("click" ,()=>{
+            window.location.href = 'product_details.html';
+        })
+        
+    })
+</script>
 
 </html>
