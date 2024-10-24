@@ -600,7 +600,7 @@ max-width: 100%;
     justify-content: space-evenly;
     align-items: center;
 }
-<<<<<<< HEAD
+
 .cat-filter{
     background-color: antiquewhite;
     height: 30px;
@@ -609,8 +609,7 @@ max-width: 100%;
     border: none;
     border-radius: 50px;
 }
-=======
->>>>>>> 10f960574c3c30dcb7d37aad6845989713d2cb29
+
 
 @media   (max-width:728px) {
      .headerb{
@@ -662,15 +661,13 @@ align-items: center;
     gap: 5px;
 }
 .product-image {
-<<<<<<< HEAD
+
     transition:  0.3s ease-in-out;
      transform: 0.3s ease-in-out; 
      box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-    }
-=======
-    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out; 
+    
 }
->>>>>>> 10f960574c3c30dcb7d37aad6845989713d2cb29
+
 
 .product-image:hover {
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
@@ -1030,239 +1027,3 @@ form button{
     text-align: center;
   
 }
-@media(max-width:900px){
-    form textarea{
-        width: 400px;
-        height: 50px;
-        padding-bottom: 40px;
-    
-    }
-    form input{
-        padding: 5px;
-        width: 400px;
-        height: 20px;
-    
-    }
-    form button{
-        width: 200px;
-    height: 40px;
-
-    }
-    #contact__title{
-        font-size: 30px;
-     }
-     #contact__pgh{
-        font-size: 15px;
-        width: 400px;
-     }
-   
-
-
-}
-
-@media(max-width:735px){
-    form textarea{
-        padding: 5px;
-
-        width: 300px;
-        height: 30px;
-        padding-bottom: 40px;
-    
-    }
-    form input{
-        padding: 5px;
-        width: 300px;
-        height: 30px;
-    
-    }
-    form button{
-        width: 150px;
-    height: 40px;
-
-    }
-    #contact__title{
-        font-size: 30px;
-     }
-     #contact__pgh{
-        font-size: 15px;
-        width: 300px;
-     }
-   
-
-
-}
-@media(max-width:642px){
-    form textarea{
-        padding: 5px;
-
-        width: 250px;
-        height: 40px;
-        padding-bottom: 40px;
-    
-    }
-    form input{
-        padding: 5px;
-        width: 250px;
-        height: 30px;
-    
-    }
-    form button{
-        width: 148px;
-    height: 40px;
-
-    }
-
-
-}
-
-@media(max-width:642px){
-    form textarea{
-        padding: 5px;
-
-        width: 220px;
-        height: 30px;
-        padding-bottom: 40px;
-    
-    }
-    form input{
-        padding: 5px;
-        width: 220px;
-        height: 25px;
-    
-    }
-    form button{
-        width: 150px;
-    height: 35px;
-
-    }
-    #contact__title{
-        font-size: 20px;
-     }
-     #contact__pgh{
-        font-size: 12px;
-        width: 220px;
-     }
-   
-
-
-
-}
-
-/* @media(max-width:553px){
-    form textarea{
-        padding: 5px;
-
-        width: 250px;
-        height: 30px;
-        padding-bottom: 40px;
-    
-    }
-    form input{
-        padding: 5px;
-        width: 250px;
-        height: 25px;
-    
-    }
-    form button{
-        width: 148px;
-    height: 28px;
-
-    }
-    #contact__title{
-        font-size: 30px;
-     }
-     #contact__pgh{
-        font-size: 15px;
-        width: 250px;
-     }
-     .contact__right img{
-        height: 70%;
-    }
-   
-
-
-} */
-@media(max-width:450px ){
-
-   
-      .contact__right{
-        display: none;
-      }
-      .contact{
-        width: 100%;
-        height: 90vh;
-        display: flex;
-        justify-content: center;
-    
-    }
-
-
-    form textarea{
-        width: 400px;
-        height: 50px;
-        padding-bottom: 40px;
-    
-    }
-    form input{
-        padding: 5px;
-        width: 400px;
-        height: 20px;
-    
-    }
-    form button{
-        width: 200px;
-    height: 40px;
-
-    }
-    #contact__title{
-        font-size: 30px;
-     }
-     #contact__pgh{
-        font-size: 15px;
-        width: 400px;
-     }
-      
-}
-
-@media(max-width:370px ){
-
-   
-    .contact__right{
-      display: none;
-    }
-    .contact{
-      width: 100%;
-      height: 90vh;
-      display: flex;
-      justify-content: center;
-  
-  }
-
-
-  form textarea{
-      width: 300px;
-      height: 50px;
-      padding-bottom: 40px;
-  
-  }
-  form input{
-      padding: 5px;
-      width: 300px;
-      height: 20px;
-  
-  }
-  form button{
-      width: 200px;
-  height: 40px;
-
-  }
-  #contact__title{
-      font-size: 30px;
-   }
-   #contact__pgh{
-      font-size: 15px;
-      width: 300px;
-   }
-    
-}
-
